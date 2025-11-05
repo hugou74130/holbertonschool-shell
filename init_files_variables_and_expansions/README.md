@@ -1,21 +1,114 @@
-# Shell, init files, variables and expansions
-Each file here is a script that execute a basuc command from the shell. 
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
-* [Task 0](./0-alias) - Create a script that creates an alias. alias  ls="rm *"
-* [Task 1](./1-hello_you) - Create a script that prints hello user, where user is the current Linux user. **echo hello $USER**
-* [Task 2](./2-path) - Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program. **export PATH=$PATH:/action**
-* [Task 3](./3-paths) - Create a script that counts the number of directories in the PATH. **echo $PATH | tr ":" "\n" | wc -l**
-* [Task 4](./4-global_variables) - Create a script that lists environment variables. **printenv**
-* [Task 5](./5-local_variables) - Create a script that lists all local variables and environment variables, and functions. **set**
-* [Task 6](./6-create_local_variable) - Create a script that creates a new local variable. **BEST="School"**
-* [Task 7](./7-create_global_variable) - Create a script that creates a new global variable. **export BEST=School**
-* [Task 8](./8-true_knowledge) - Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line. **echo $(( TRUEKNOWLEDGE + 128 ))**
-* [Task 9](./9-divide_and_rule) - Write a script that prints the result of POWER divided by DIVIDE, followed by a new line. **echo $(($POWER / $DIVIDE))**
-* [Task 10](./10-love_exponent_breath) - Write a script that displays the result of BREATH to the power LOVE. **echo $(( BREATH ** LOVE))**
-* [Task 11](./11-binary_to_decimal) - Write a script that converts a number from base 2 to base 10. **echo $((2#$BINARY))**
-* [Task 12](./12-combinations) - Create a script that prints all possible combinations of two letters, except oo. **echo {a..z}{a..z} | tr ' ' '\n' | grep -v 'oo'**
-* [Task 13](./13-print_float) - Write a script that prints a number with two decimal places, followed by a new line. **printf "%0.2f\n" "$NUM"**
-* [Task 14](./14-decimal_to_hexadecimal) - Write a script that converts a number from base 10 to base 16. **printf "%x\n" $DECIMAL**
-* [Task 15](./15-rot13) - Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII. **tr 'a-zA-Z' 'n-za-mN-ZA-N'**
-* [Task 16](./16-odd) - Write a script that prints every other line from the input, starting with the first line. **perl -ne 'print if (++$x)%2'**
-* [Task 17](./17-water_and_stir) - Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result. WATER is in base water, STIR is in base stir, The result should be in base bestchol.
+<h3 align="center">Project Title</h3>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div>
+
+---
+
+<p align="center"> Few lines describing your project.
+    <br>
+</p>
+
+## 📝 Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
+
+## 🧐 About <a name = "about"></a>
+
+Write about 1-2 paragraphs describing the purpose of your project.
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them.
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running.
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo.
+
+## 🔧 Running the tests <a name = "tests"></a>
+
+Explain how to run the automated tests for this system.
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## 🎈 Usage <a name="usage"></a>
+
+Add notes about how to use the system.
+
+## 🚀 Deployment <a name = "deployment"></a>
+
+Add additional notes about how to deploy this on a live system.
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Express](https://expressjs.com/) - Server Framework
+- [VueJs](https://vuejs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
