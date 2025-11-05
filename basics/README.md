@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/45/3/1762375468-gemini-generated-image-hcudbihcudbihcud.png" alt="Project logo"></a>
+ <img width=400px height=400px src="https://image.noelshack.com/fichiers/2025/45/3/1762375468-gemini-generated-image-hcudbihcudbihcud.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Git intro</h3>
