@@ -16,7 +16,8 @@
 
 ---
 
-<p align="center"> This project serves as a practical and accessible introductory guide for those new to Git and GitHub. It provides a safe learning environment to master the basic commands and understand the fundamental principles of distributed version control.
+<p align="center"> This project consists of creating a simplified reproduction of a Unix shell (bash). The objective is to understand fundamental concepts of C programming, such as process management, string manipulation, and interaction with the operating system.
+Our shell implements the essential features of a command shell: reading user input, parsing commands, executing them, and displaying results. This project provides practical experience in low-level development and a better understanding of how shells work internally.
 	<br>
 </p>
 
