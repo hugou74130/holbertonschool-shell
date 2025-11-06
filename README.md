@@ -32,7 +32,7 @@ Our shell implements the essential features of a command shell: reading user inp
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This project is a simplified implementation of a Unix shell in C. The goal is to understand fundamental system programming concepts like process management, command parsing, and interaction with the operating system. By building a shell from scratch, we learn how command-line interfaces work and develop practical skills in low-level C programming.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -41,7 +41,7 @@ This "Git Intro" repository is a dedicated, hands-on learning resource created s
 The ultimate goal is to equip you with the practical knowledge necessary to collaborate effectively and manage your own code history. By providing clear, step-by-step exercises and files explicitly designed for experimentation, this project ensures you can gain true mastery over the basic Git workflow. Use this space to make mistakes, learn from them, and firmly establish the foundational skills required before moving on to larger, team-based development projects.
 ### Prerequisites
 
-To get started with this project and practice the Git commands, you primarily need two things installed on your system: Git and a Code Editor.
+You need a Unix-like system (Linux, macOS) with gcc compiler installed.
 
 ### 1. Prerequisites
 
@@ -52,6 +52,7 @@ Before starting, ensure you have the following installed:
 	A Code Editor: To view and modify the files within the repository (e.g., VS Code, Sublime Text, Atom).
 
 	A Command Line Interface (CLI): You will be executing all Git commands through a terminal window (e.g., Terminal on Mac/Linux, Git Bash on Windows, or integrated terminal in your code editor).
+
 
 ### 2. Installation Instructions
 
