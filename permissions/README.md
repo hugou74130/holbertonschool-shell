@@ -1,192 +1,70 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=400px height=400px src="https://image.noelshack.com/fichiers/2025/45/3/1762375639-gemini-generated-image-aglxqiaglxqiaglx.png" alt="Project logo"></a>
+ <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/45/3/1762375260-gemini-generated-image-602ke1602ke1602k.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Git intro</h3>
+<h3 align="center">Module: Shell Permissions</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/hugou74130/holbertonschool-shell.svg)](https://github.com/hugou74130/holbertonschool-shell/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/hugou74130/holbertonschool-shell.svg)](https://github.com/hugou74130/holbertonschool-shell/pulls)
 
 </div>
 
 ---
 
-<p align="center"> This project serves as a practical and accessible introductory guide for those new to Git and GitHub. It provides a safe learning environment to master the basic commands and understand the fundamental principles of distributed version control.
-	<br>
+<p align="center">
+    Ce projet est centré sur la gestion des utilisateurs et des permissions sur les fichiers et répertoires dans un système Linux. Il couvre le changement de propriétaire, de groupe et les droits d'accès (lecture, écriture, exécution).
+    <br> <br>
+    <b><a href="../README.md">↩️ Retour au projet principal</a></b>
 </p>
 
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Built Using](#built_using)
+- [Learning Objectives](#objectives)
+- [File Descriptions](#files)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Ce dossier contient les scripts et les solutions pour le module sur les permissions. Les exercices impliquent l'utilisation de `chmod` pour changer les modes d'accès (symboliques et octaux), `chown` et `chgrp` pour changer la propriété, ainsi que la compréhension de `sudo` et des groupes.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Learning Objectives <a name = "objectives"></a>
 
-This "Git Intro" repository is a dedicated, hands-on learning resource created specifically for beginners who are taking their first steps with Git and GitHub. The primary purpose of this project is to demystify version control, transitioning you from confusion to confidence by providing a safe, controlled environment for practice. We focus on the absolute essentials, ensuring you grasp the core concepts and master fundamental commands like clone, add, commit, push, and pull without the pressure of a complex, live production project.
+À la fin de ce projet, je devais être capable de :
+* Gérer les utilisateurs (`whoami`, `who am i`, `groups`).
+* Utiliser la commande `sudo` pour exécuter des commandes en tant que super-utilisateur.
+* Changer la propriété d'un fichier (`chown`) ou son groupe (`chgrp`).
+* Comprendre et modifier les permissions d'un fichier (`chmod`).
+* Utiliser les représentations symboliques (ex: `u+x, g-w`) et octales (ex: `764`) des permissions.
+* Comprendre le rôle des bits "setuid", "setgid" et "sticky bit".
 
-The ultimate goal is to equip you with the practical knowledge necessary to collaborate effectively and manage your own code history. By providing clear, step-by-step exercises and files explicitly designed for experimentation, this project ensures you can gain true mastery over the basic Git workflow. Use this space to make mistakes, learn from them, and firmly establish the foundational skills required before moving on to larger, team-based development projects.
-### Prerequisites
+## 🎈 File Descriptions <a name="files"></a>
 
-To get started with this project and practice the Git commands, you primarily need two things installed on your system: Git and a Code Editor.
+Chaque fichier de ce dossier est un script qui effectue une tâche liée aux permissions :
 
-### 1. Prerequisites
-
-Before starting, ensure you have the following installed:
-
-	Git: The version control system itself.
-
-	A Code Editor: To view and modify the files within the repository (e.g., VS Code, Sublime Text, Atom).
-
-	A Command Line Interface (CLI): You will be executing all Git commands through a terminal window (e.g., Terminal on Mac/Linux, Git Bash on Windows, or integrated terminal in your code editor).
-
-### 2. Installation Instructions
-
-Follow the steps below to set up your environment:
-
-### Installing
-
-This section provides a step-by-step guide to get your Git development environment running and ready for practice.
-
-### Step 1: Install Git
-
-The first step is installing the Git version control system on your computer.
-
-```
-# On Windows, download and run the installer from git-scm.com.
-# On macOS (using Homebrew):
-brew install git
-
-# On Linux (Debian/Ubuntu):
-sudo apt update
-sudo apt install git
-```
-
-### Step 2: Verify Git Installation
-
-Confirm that Git is installed correctly and accessible from your command line.
-
-```
-# Check the installed version of Git
-git --version
-```
-
-### Step 3: Configure Your Git Identity
-
-Set your global user name and email. These credentials will be attached to every commit you make.
-
-```
-# Replace "Your Name" with your actual name
-git config --global user.name "Your Name"
-
-# Replace "your.email@example.com" with your actual email
-git config --global user.email "your.email@example.com"
-```
-### Step 4: Clone the Git Intro Repository
-
-Download a copy of this entire project repository onto your local machine.
-
-```
-# Navigate to the folder where you want to keep your projects
-cd ~/Projects
-
-# Clone the repository (Replace [REPOSITORY_URL] with the actual URL)
-git clone [REPOSITORY_URL]
-
-```
-
-### Step 5: Navigate into the Project Directory
-
-Change your current directory in the terminal to the newly cloned project folder.
-
-```
-# Change directory into the cloned project folder
-cd git-intro
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-This repository is designed to be used interactively via your Command Line Interface (CLI). Follow the guided tutorials within the project to practice essential Git commands.
-
-### 1. Locate the Tutorials
-
-Start by reviewing the main instructions and tutorials provided in the repository.
-
-```
-# List the contents of the project
-ls
-# Expected output: README.md, TUTORIALS/, PRACTICE_FILES/
-```
-### 2. Configure Your Practice File
-
-Navigate to the directory dedicated to practice and open the designated file in your code editor.
-Bash
-```
-# Change into the practice files directory
-cd PRACTICE_FILES
-
-# Open the main practice file in your editor (e.g., using 'code' for VS Code)
-code practice-workspace.txt
-```
-
-### 3. Practice the Core Workflow
-
-Follow the guided steps in the TUTORIALS/ folder. For each step, you will modify a file, stage the change, and commit it.
-```
-Action	Command to Practice	Purpose
-Make a Change	(Use your code editor)	Modify practice-workspace.txt by adding a line of text.
-Stage the Change	git add practice-workspace.txt	Tell Git which changes to include in the next snapshot (commit).
-Commit the Change	git commit -m "Added my first line"	Record the staged changes as a permanent snapshot in the project history.
-```
-
-### 4. Practice Branching
-
-Once you are comfortable with commits, practice isolating your work on a new branch.
-Bash
-```
-# Create and switch to a new branch for feature work
-git checkout -b my-new-feature
-
-# Repeat the modify, add, and commit steps here...
-
-# Switch back to the main branch
-git checkout main
-```
-
-### 5. Review Your History
-
-Use the following command regularly to see how your changes and commits build the project's history.
-Bash
-```
-# View the commit history
-git log
-```
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [Git](https://git-scm.com/) - The essential distributed version control system.
-- [Github](https://github.com/) - The platform used to host this repository and practice collaboration workflows.
-- [your Terminal/CLI]() - The main interface for executing all practice commands.
-- [VS Code (or your preferred editor)]() - The tool used for editing the exercise files.
+* **`0-iam_betty`**: Change l'utilisateur courant pour l'utilisateur `betty`.
+* **`1-who_am_i`**: Affiche le nom de l'utilisateur effectif courant.
+* **`2-groups`**: Affiche tous les groupes auxquels l'utilisateur courant appartient.
+* **`3-new_owner`**: Change le propriétaire du fichier `hello` en `betty`.
+* **`4-empty`**: Crée un fichier vide nommé `hello`.
+* **`5-execute`**: Ajoute la permission d'exécution au propriétaire du fichier `hello`.
+* **`6-multiple_permissions`**: Ajoute les permissions d'exécution au propriétaire et au groupe, et la permission de lecture aux autres pour le fichier `hello`.
+* **`7-everybody`**: Ajoute la permission d'exécution pour tout le monde au fichier `hello`.
+* **`8-James_Bond`**: Donne toutes les permissions aux autres et aucune au propriétaire et au groupe pour le fichier `hello`.
+* **`9-John_Doe`**: Définit les permissions du fichier `hello` en `rwxr-x-wx` (mode `757`).
+* **`10-mirror_permissions`**: Copie les permissions du fichier `olleh` sur le fichier `hello`.
+* **`11-directories_permissions`**: Ajoute la permission d'exécution à tous les sous-répertoires du répertoire courant.
+* **`12-directory_permissions`**: Crée un répertoire `my_dir` avec les permissions `751`.
+* **`13-change_group`**: Change le groupe propriétaire du fichier `hello` en `school`.
+* **`100-change_owner_and_group`**: Change le propriétaire en `betty` et le groupe en `holberton` pour le fichier `hello`.
+* **`101-symbolic_link_permissions`**: Change le propriétaire et le groupe d'un lien symbolique.
+* **`102-if_only`**: Change le propriétaire du fichier `hello` en `betty` seulement s'il est déjà possédé par `guillaume`.
+* **`103-Star_Wars`**: Exécute un script `star-wars` en utilisant le `setuid`.
 
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@hugou74130](https://github.com/hugou74130)
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
