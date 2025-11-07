@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/hugou74130/holbertonschool-shell" rel="noopener">
- <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/45/3/1762375260-gemini-generated-image-602ke1602ke1602k.png" alt="Project logo"></a>
+ <img width=400px height=200px src="[https://image.noelshack.com/fichiers/2025/45/3/1762375260-gemini-generated-image-602ke1602ke1602k.png](https://image.noelshack.com/fichiers/2025/45/5/1762531159-gemini-generated-image-3b23ro3b23ro3b23.png)" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Holberton School Shell Projects</h3>
@@ -194,3 +194,4 @@ See also the list of [contributors](https://github.com/hugou74130/holbertonschoo
 - The Linux and Bash community for creating powerful tools
 - All fellow learners who collaborate and share knowledge
 - The open-source community for inspiration and support
+
