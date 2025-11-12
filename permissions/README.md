@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/hugou74130/holbertonschool-shell/tree/main/permissions" rel="noopener">
- <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/45/3/1762375260-gemini-generated-image-602ke1602ke1602k.png" alt="Project logo"></a>
+ <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/46/3/1762949283-gemini-generated-image-4b8lc14b8lc14b8l.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Permissions - File Access Control and Ownership in Unix/Linux</h3>
@@ -18,7 +18,7 @@
 <p align="center"> Master file permissions, ownership, and access control in Unix/Linux systems.
     <br>
 Learn to manage who can read, write, and execute files and directories, and how to change file ownership.
-    <br> 
+    <br>
 </p>
 
 ## 📝 Table of Contents

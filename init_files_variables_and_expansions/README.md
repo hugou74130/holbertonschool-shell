@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/hugou74130/holbertonschool-shell/tree/main/init_files_variables_and_expansions" rel="noopener">
- <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/45/3/1762375260-gemini-generated-image-602ke1602ke1602k.png" alt="Project logo"></a>
+ <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/46/3/1762949090-gemini-generated-image-xqkaaxqkaaxqkaax.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Init Files, Variables and Expansions - Advanced Shell Scripting</h3>
@@ -18,7 +18,7 @@
 <p align="center"> Master shell initialization files, environment variables, variable expansions, and advanced arithmetic operations in Bash.
     <br>
 Learn how to customize your shell environment and write sophisticated shell scripts using expansions and substitutions.
-    <br> 
+    <br>
 </p>
 
 ## 📝 Table of Contents
@@ -72,7 +72,7 @@ bash 0-alias
 
 **Commands used:** `alias`
 
-**What it teaches:** 
+**What it teaches:**
 - Creating command aliases
 - How aliases override original commands
 - Dangers of alias shadowing

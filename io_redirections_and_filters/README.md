@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/hugou74130/holbertonschool-shell/tree/main/io_redirections_and_filters" rel="noopener">
- <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/45/3/1762375260-gemini-generated-image-602ke1602ke1602k.png" alt="Project logo"></a>
+ <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/46/3/1762949159-gemini-generated-image-xbiyqnxbiyqnxbiy.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">I/O Redirections and Filters - Advanced Text Processing</h3>
@@ -18,7 +18,7 @@
 <p align="center"> Master input/output redirections, pipes, and powerful text filtering commands in Bash.
     <br>
 Learn to combine commands and manipulate data streams to process, transform, and analyze text efficiently.
-    <br> 
+    <br>
 </p>
 
 ## 📝 Table of Contents
